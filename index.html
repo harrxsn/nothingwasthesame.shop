@@ -1,90 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Nothing Was The Same</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      background-color: #000;
-      color: #fff;
-      font-family: 'Playfair Display', serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      text-align: center;
-    }
-
-    header {
-      font-size: 2.5rem;
-      margin-top: 40px;
-      letter-spacing: 2px;
-    }
-
-    .product-container {
-      margin: 40px auto;
-      padding: 20px;
-      max-width: 500px;
-    }
-
-    .product-image {
-      width: 100%;
-      max-width: 400px;
-      object-fit: contain;
-      background: transparent;
-    }
-
-    .product-title {
-      font-size: 1.8rem;
-      margin: 20px 0 10px;
-    }
-
-    .price {
-      font-size: 1.3rem;
-      color: #aaa;
-      margin-bottom: 20px;
-    }
-
-    .buy-button {
-      display: inline-block;
-      padding: 14px 28px;
-      border: 1px solid #fff;
-      color: #fff;
-      text-decoration: none;
-      font-size: 1rem;
-      text-transform: uppercase;
-      transition: background 0.3s ease;
-    }
-
-    .buy-button:hover {
-      background-color: #fff;
-      color: #000;
-    }
-
-    footer {
-      font-size: 0.9rem;
-      color: #666;
-      margin-top: 40px;
-      padding: 20px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nothing Was The Same</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
+        header { background: black; color: white; padding: 20px; font-size: 24px; }
+        .product { margin: 20px; }
+        .product img { width: 300px; border-radius: 10px; }
+        .price { font-size: 20px; color: red; }
+        .buy-button { background: black; color: white; padding: 10px 20px; border: none; cursor: pointer; }
+        footer { margin-top: 20px; padding: 10px; background: #f4f4f4; }
+    </style>
 </head>
 <body>
-
-  <header>Nothing Was The Same</header>
-
-  <div class="product-container">
-    <img class="product-image" src="https://i.imgur.com/06kpsjL.png" alt="Pre Distressed Joshua Tree T-Shirt" />
-    <h2 class="product-title">Pre Distressed Joshua Tree</h2>
-    <p class="price">$100</p>
-    <a href="https://buy.stripe.com/3cs9DYfxw0JRacw288" target="_blank" class="buy-button">Buy Now</a>
-  </div>
-
-  <footer>&copy; 2025 Nothing Was The Same. All rights reserved.</footer>
-
+    <header>Nothing Was The Same</header>
+    <div class="product">
+        <h2>Pre Distressed Joshua Tree</h2>
+        <img src="https://i.imgur.com/06kpsjL.jpeg" alt="Pre Distressed Joshua Tree T-Shirt">
+        <p class="price">$100</p>
+        <button class="buy-button">Buy Now</button>
+    </div>
+    <footer>&copy; 2025 Nothing Was The Same. All rights reserved.</footer>
 </body>
 </html>
